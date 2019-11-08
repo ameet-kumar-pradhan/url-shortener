@@ -63,8 +63,13 @@ $(document).ready(() => {
     };
     $.ajax(settings).done(function(response) {
       console.log(response.result_url);
-      $("#url").text(urlLink + " : " + response.result_url);
-    $('#input1').val("")
+      $("#input1").val(response.result_url);
+      $('#btn').attr({
+        disabled:""
+      });
+      // $("#url").text(urlLink + " : " + response.result_url);
+    // $('#input1').val("")
+
     },
     );
   });
