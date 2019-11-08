@@ -1,4 +1,5 @@
 $(document).ready(() => {
+
   var div = $("<div>");
   div.attr({
     class: "container jumbotron-fluid ",
