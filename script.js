@@ -32,7 +32,7 @@ $(document).ready(() => {
     .attr({
       class: "url-area"
     })
-    .append("<h5>Shorten link will be visible here</h5>")
+    .append("<h5>Shorten link will be visible inside input</h5>")
     .appendTo(div);
   $("h5")
     .addClass("url")
